@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "libs/**/*.jar"
+    ],
+    "files.associations": {
+        "test2.txt": "/home/codio/workspace/submit/test2.txt"
+    }
+}

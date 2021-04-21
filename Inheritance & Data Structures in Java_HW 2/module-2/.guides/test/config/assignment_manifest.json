@@ -1,0 +1,49 @@
+{
+  "assignment_overview": {
+    "assignment_types": [
+      "java"
+    ],
+    "required_files": [],
+    "ignore_files": [],
+    "required_functions": {},
+    "extra_credit_functions": {},
+    "extra_credit": {
+      "java": {},
+      "jupyter": {},
+      "python": {},
+      "c": {}
+    },
+    "scoring": {
+      "java": {},
+      "jupyter": {},
+      "python": {},
+      "c": {}
+    }
+  },
+  "scoring": {
+    "c": {},
+    "java": {
+      "EquilateralTriangleTest": {
+        "testEquilateralTriangle": 2,
+        "testGetArea": 3,
+        "testGetPerimeter": 3
+      },
+      "RightTriangleTest": {
+        "testGetArea": 3,
+        "testRightTriangle": 2,
+        "testGetPerimenter": 2
+      }
+    },
+    "jupyter": {},
+    "python": {}
+  },
+  "extra_credit": {
+    "c": {},
+    "java": {
+      "EquilateralTriangleTest": {},
+      "RightTriangleTest": {}
+    },
+    "jupyter": {},
+    "python": {}
+  }
+}

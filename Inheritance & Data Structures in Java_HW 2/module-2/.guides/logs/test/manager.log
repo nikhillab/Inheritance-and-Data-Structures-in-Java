@@ -1,0 +1,648 @@
+[2021-04-18 23:46:18 UTC-04:00] > manager:	
+
+
+Kicking off new manager instance and associated tests, grading
+[2021-04-18 23:46:18 UTC-04:00] > manager:	Successfully created manager instance
+[2021-04-18 23:46:18 UTC-04:00] > checker:	Checking for required files
+
+[2021-04-18 23:46:18 UTC-04:00] > checker:	Found these files in submit folder: ['src/triangle/Triangle.java', 'src/triangle/RightTriangle.java', 'src/triangle/EquilateralTriangle.java', 'bin/triangle/EquilateralTriangle.class', 'bin/triangle/Triangle.class', 'bin/triangle/RightTriangle.class', '.gitignore']
+[2021-04-18 23:46:18 UTC-04:00] > checker:	No files missing
+[2021-04-18 23:46:18 UTC-04:00] > manager:	Creating tester
+[2021-04-18 23:46:18 UTC-04:00] > tester:	Current Root: /home/codio/workspace/.guides/test	Is Secure: False
+[2021-04-18 23:46:18 UTC-04:00] > manager:	Successfully exited tester!
+[2021-04-18 23:46:18 UTC-04:00] > manager:	Creating grader
+[2021-04-18 23:46:18 UTC-04:00] > manager:	Successfully exited grader!
+[2021-04-18 23:46:18 UTC-04:00] > manager:	Beginning tests by invoking tester from manager
+[2021-04-18 23:46:18 UTC-04:00] > tester:	Testing java
+[2021-04-18 23:46:18 UTC-04:00] > tester:	Compile command is: javac -d bin -sourcepath src -cp .:junit-platform-console-standalone-1.3.2.jar:bin src/triangle/*.java
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Finished testing
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Beginning grading process using the grader invoked from manager
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Trying to retrieve text version of java output
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Found 71 lines in text-output
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Examining line: JUnit Jupiter ✔
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Junit Garbage: True	Class: False	Test: False
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Examining line: EquilateralTriangleTest ✔
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Determined this is class: EquilateralTriangleTest
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Examining line: testGetArea() ✘ expected: <0.433> but was: <0.4325>
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Determined this is test: testGetArea()
+[2021-04-18 23:46:21 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 3,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-18 23:46:21 UTC-04:00] > grader:	TC post-update: {
+  "weight": 3,
+  "passed": false,
+  "message": "expected: <0.433> but was: <0.4325>",
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Examining line: testEquilateralTriangle() ✔
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Determined this is test: testEquilateralTriangle()
+[2021-04-18 23:46:21 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-18 23:46:21 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Examining line: testGetPerimeter() ✘ expected: <3.0> but was: <1.0>
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Determined this is test: testGetPerimeter()
+[2021-04-18 23:46:21 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 3,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-18 23:46:21 UTC-04:00] > grader:	TC post-update: {
+  "weight": 3,
+  "passed": false,
+  "message": "expected: <3.0> but was: <1.0>",
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Examining line: RightTriangleTest ✔
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Determined this is class: RightTriangleTest
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Examining line: testRightTriangle() ✔
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Determined this is test: testRightTriangle()
+[2021-04-18 23:46:21 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-18 23:46:21 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Examining line: testGetArea() ✔
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Determined this is test: testGetArea()
+[2021-04-18 23:46:21 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 3,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-18 23:46:21 UTC-04:00] > grader:	TC post-update: {
+  "weight": 3,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Examining line: testGetPerimenter() ✘ expected: <3.4142> but was: <1.4142135623730951>
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Determined this is test: testGetPerimenter()
+[2021-04-18 23:46:21 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-18 23:46:21 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2,
+  "passed": false,
+  "message": "expected: <3.4142> but was: <1.4142135623730951>",
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-18 23:46:21 UTC-04:00] > grader:	Examining line: JUnit Vintage ✔
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Junit Garbage: True	Class: False	Test: False
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Finished grading. Results to follow
+[2021-04-18 23:46:21 UTC-04:00] > manager:	{
+  "java": {
+    "included": true,
+    "EquilateralTriangleTest": {
+      "testEquilateralTriangle": {
+        "weight": 2,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetArea": {
+        "weight": 3,
+        "passed": false,
+        "message": "expected: <0.433> but was: <0.4325>",
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetPerimeter": {
+        "weight": 3,
+        "passed": false,
+        "message": "expected: <3.0> but was: <1.0>",
+        "extra_credit": false,
+        "performed": true
+      }
+    },
+    "RightTriangleTest": {
+      "testGetArea": {
+        "weight": 3,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testRightTriangle": {
+        "weight": 2,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetPerimenter": {
+        "weight": 2,
+        "passed": false,
+        "message": "expected: <3.4142> but was: <1.4142135623730951>",
+        "extra_credit": false,
+        "performed": true
+      }
+    }
+  }
+}
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Ungraded...
+[2021-04-18 23:46:21 UTC-04:00] > manager:	{
+  "java": {
+    "included": true
+  }
+}
+[2021-04-18 23:46:21 UTC-04:00] > logger:	Beginning formatted test printing
+[2021-04-18 23:46:21 UTC-04:00] > logger:	[94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+Results for [92mjava[0m
+
+[2021-04-18 23:46:21 UTC-04:00] > logger:	
+	Test file: [92mEquilateralTriangleTest[0m
+[2021-04-18 23:46:21 UTC-04:00] > logger:		[[94mPASS[0m] > +2/2 pts   [92mtestEquilateralTriangle[0m
+[2021-04-18 23:46:21 UTC-04:00] > logger:		[[91mFAIL[0m] > +0/3 pts   [92mtestGetArea[0m => expected: <0.433> but was: <0.4325>
+[2021-04-18 23:46:21 UTC-04:00] > logger:		[[91mFAIL[0m] > +0/3 pts   [92mtestGetPerimeter[0m => expected: <3.0> but was: <1.0>
+[2021-04-18 23:46:21 UTC-04:00] > logger:	
+	Test file: [92mRightTriangleTest[0m
+[2021-04-18 23:46:21 UTC-04:00] > logger:		[[94mPASS[0m] > +3/3 pts   [92mtestGetArea[0m
+[2021-04-18 23:46:21 UTC-04:00] > logger:		[[94mPASS[0m] > +2/2 pts   [92mtestRightTriangle[0m
+[2021-04-18 23:46:21 UTC-04:00] > logger:		[[91mFAIL[0m] > +0/2 pts   [92mtestGetPerimenter[0m => expected: <3.4142> but was: <1.4142135623730951>
+[2021-04-18 23:46:21 UTC-04:00] > logger:	[94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+Results for [92mjava[0m
+
+[2021-04-18 23:46:21 UTC-04:00] > logger:	[94m
+
+=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=[0m
+Final score: [92m47% (7.0/15.0 pts)[0m
+
+
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Received 7.0 / 15.0, grade: 47
+[2021-04-18 23:46:21 UTC-04:00] > manager:	Exiting, no need to send LTI connection as not secure test
+[2021-04-18 23:46:55 UTC-04:00] > manager:	
+
+
+Kicking off new manager instance and associated tests, grading
+[2021-04-18 23:46:55 UTC-04:00] > manager:	Successfully created manager instance
+[2021-04-18 23:46:55 UTC-04:00] > checker:	Checking for required files
+
+[2021-04-18 23:46:55 UTC-04:00] > checker:	Found these files in submit folder: ['src/triangle/RightTriangle.java', 'src/triangle/EquilateralTriangle.java', 'src/triangle/Triangle.java', 'bin/triangle/EquilateralTriangle.class', 'bin/triangle/Triangle.class', 'bin/triangle/RightTriangle.class', '.gitignore']
+[2021-04-18 23:46:55 UTC-04:00] > checker:	No files missing
+[2021-04-18 23:46:55 UTC-04:00] > manager:	Creating tester
+[2021-04-18 23:46:55 UTC-04:00] > tester:	Current Root: /home/codio/workspace/.guides/test	Is Secure: False
+[2021-04-18 23:46:55 UTC-04:00] > manager:	Successfully exited tester!
+[2021-04-18 23:46:55 UTC-04:00] > manager:	Creating grader
+[2021-04-18 23:46:55 UTC-04:00] > manager:	Successfully exited grader!
+[2021-04-18 23:46:55 UTC-04:00] > manager:	Beginning tests by invoking tester from manager
+[2021-04-18 23:46:55 UTC-04:00] > tester:	Testing java
+[2021-04-18 23:46:55 UTC-04:00] > tester:	Compile command is: javac -d bin -sourcepath src -cp .:junit-platform-console-standalone-1.3.2.jar:bin src/triangle/*.java
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Finished testing
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Beginning grading process using the grader invoked from manager
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Trying to retrieve text version of java output
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Found 43 lines in text-output
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Examining line: JUnit Jupiter ✔
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Junit Garbage: True	Class: False	Test: False
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Examining line: EquilateralTriangleTest ✔
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Determined this is class: EquilateralTriangleTest
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Examining line: testGetArea() ✘ expected: <0.433> but was: <0.4325>
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Determined this is test: testGetArea()
+[2021-04-18 23:46:57 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 3,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-18 23:46:57 UTC-04:00] > grader:	TC post-update: {
+  "weight": 3,
+  "passed": false,
+  "message": "expected: <0.433> but was: <0.4325>",
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Examining line: testEquilateralTriangle() ✔
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Determined this is test: testEquilateralTriangle()
+[2021-04-18 23:46:57 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-18 23:46:57 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Examining line: testGetPerimeter() ✔
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Determined this is test: testGetPerimeter()
+[2021-04-18 23:46:57 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 3,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-18 23:46:57 UTC-04:00] > grader:	TC post-update: {
+  "weight": 3,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Examining line: RightTriangleTest ✔
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Determined this is class: RightTriangleTest
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Examining line: testRightTriangle() ✔
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Determined this is test: testRightTriangle()
+[2021-04-18 23:46:57 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-18 23:46:57 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Examining line: testGetArea() ✔
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Determined this is test: testGetArea()
+[2021-04-18 23:46:57 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 3,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-18 23:46:57 UTC-04:00] > grader:	TC post-update: {
+  "weight": 3,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Examining line: testGetPerimenter() ✔
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Determined this is test: testGetPerimenter()
+[2021-04-18 23:46:57 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-18 23:46:57 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-18 23:46:57 UTC-04:00] > grader:	Examining line: JUnit Vintage ✔
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Junit Garbage: True	Class: False	Test: False
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Finished grading. Results to follow
+[2021-04-18 23:46:57 UTC-04:00] > manager:	{
+  "java": {
+    "included": true,
+    "EquilateralTriangleTest": {
+      "testEquilateralTriangle": {
+        "weight": 2,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetArea": {
+        "weight": 3,
+        "passed": false,
+        "message": "expected: <0.433> but was: <0.4325>",
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetPerimeter": {
+        "weight": 3,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    },
+    "RightTriangleTest": {
+      "testGetArea": {
+        "weight": 3,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testRightTriangle": {
+        "weight": 2,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetPerimenter": {
+        "weight": 2,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    }
+  }
+}
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Ungraded...
+[2021-04-18 23:46:57 UTC-04:00] > manager:	{
+  "java": {
+    "included": true
+  }
+}
+[2021-04-18 23:46:57 UTC-04:00] > logger:	Beginning formatted test printing
+[2021-04-18 23:46:57 UTC-04:00] > logger:	[94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+Results for [92mjava[0m
+
+[2021-04-18 23:46:57 UTC-04:00] > logger:	
+	Test file: [92mEquilateralTriangleTest[0m
+[2021-04-18 23:46:57 UTC-04:00] > logger:		[[94mPASS[0m] > +2/2 pts   [92mtestEquilateralTriangle[0m
+[2021-04-18 23:46:57 UTC-04:00] > logger:		[[91mFAIL[0m] > +0/3 pts   [92mtestGetArea[0m => expected: <0.433> but was: <0.4325>
+[2021-04-18 23:46:57 UTC-04:00] > logger:		[[94mPASS[0m] > +3/3 pts   [92mtestGetPerimeter[0m
+[2021-04-18 23:46:57 UTC-04:00] > logger:	
+	Test file: [92mRightTriangleTest[0m
+[2021-04-18 23:46:57 UTC-04:00] > logger:		[[94mPASS[0m] > +3/3 pts   [92mtestGetArea[0m
+[2021-04-18 23:46:57 UTC-04:00] > logger:		[[94mPASS[0m] > +2/2 pts   [92mtestRightTriangle[0m
+[2021-04-18 23:46:57 UTC-04:00] > logger:		[[94mPASS[0m] > +2/2 pts   [92mtestGetPerimenter[0m
+[2021-04-18 23:46:57 UTC-04:00] > logger:	[94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+Results for [92mjava[0m
+
+[2021-04-18 23:46:57 UTC-04:00] > logger:	[94m
+
+=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=[0m
+Final score: [92m80% (12.0/15.0 pts)[0m
+
+
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Received 12.0 / 15.0, grade: 80
+[2021-04-18 23:46:57 UTC-04:00] > manager:	Exiting, no need to send LTI connection as not secure test
+[2021-04-19 00:07:56 UTC-04:00] > manager:	
+
+
+Kicking off new manager instance and associated tests, grading
+[2021-04-19 00:07:56 UTC-04:00] > manager:	Successfully created manager instance
+[2021-04-19 00:07:56 UTC-04:00] > checker:	Checking for required files
+
+[2021-04-19 00:07:56 UTC-04:00] > checker:	Found these files in submit folder: ['src/triangle/RightTriangle.java', 'src/triangle/EquilateralTriangle.java', 'src/triangle/Triangle.java', 'bin/triangle/EquilateralTriangle.class', 'bin/triangle/Triangle.class', 'bin/triangle/RightTriangle.class', '.gitignore']
+[2021-04-19 00:07:56 UTC-04:00] > checker:	No files missing
+[2021-04-19 00:07:56 UTC-04:00] > manager:	Creating tester
+[2021-04-19 00:07:56 UTC-04:00] > tester:	Current Root: /home/codio/workspace/.guides/test	Is Secure: False
+[2021-04-19 00:07:56 UTC-04:00] > manager:	Successfully exited tester!
+[2021-04-19 00:07:56 UTC-04:00] > manager:	Creating grader
+[2021-04-19 00:07:56 UTC-04:00] > manager:	Successfully exited grader!
+[2021-04-19 00:07:56 UTC-04:00] > manager:	Beginning tests by invoking tester from manager
+[2021-04-19 00:07:56 UTC-04:00] > tester:	Testing java
+[2021-04-19 00:07:56 UTC-04:00] > tester:	Compile command is: javac -d bin -sourcepath src -cp .:junit-platform-console-standalone-1.3.2.jar:bin src/triangle/*.java
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Finished testing
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Beginning grading process using the grader invoked from manager
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Trying to retrieve text version of java output
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Found 43 lines in text-output
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Examining line: JUnit Jupiter ✔
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Junit Garbage: True	Class: False	Test: False
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Examining line: EquilateralTriangleTest ✔
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Determined this is class: EquilateralTriangleTest
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Examining line: testGetArea() ✘ expected: <0.433> but was: <0.4325>
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Determined this is test: testGetArea()
+[2021-04-19 00:07:58 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 3,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-19 00:07:58 UTC-04:00] > grader:	TC post-update: {
+  "weight": 3,
+  "passed": false,
+  "message": "expected: <0.433> but was: <0.4325>",
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Examining line: testEquilateralTriangle() ✔
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Determined this is test: testEquilateralTriangle()
+[2021-04-19 00:07:58 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-19 00:07:58 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Examining line: testGetPerimeter() ✔
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Determined this is test: testGetPerimeter()
+[2021-04-19 00:07:58 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 3,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-19 00:07:58 UTC-04:00] > grader:	TC post-update: {
+  "weight": 3,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Examining line: RightTriangleTest ✔
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Determined this is class: RightTriangleTest
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Examining line: testRightTriangle() ✔
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Determined this is test: testRightTriangle()
+[2021-04-19 00:07:58 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-19 00:07:58 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Examining line: testGetArea() ✔
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Determined this is test: testGetArea()
+[2021-04-19 00:07:58 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 3,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-19 00:07:58 UTC-04:00] > grader:	TC post-update: {
+  "weight": 3,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Examining line: testGetPerimenter() ✔
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Determined this is test: testGetPerimenter()
+[2021-04-19 00:07:58 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-19 00:07:58 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-19 00:07:58 UTC-04:00] > grader:	Examining line: JUnit Vintage ✔
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Junit Garbage: True	Class: False	Test: False
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Finished grading. Results to follow
+[2021-04-19 00:07:58 UTC-04:00] > manager:	{
+  "java": {
+    "included": true,
+    "EquilateralTriangleTest": {
+      "testEquilateralTriangle": {
+        "weight": 2,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetArea": {
+        "weight": 3,
+        "passed": false,
+        "message": "expected: <0.433> but was: <0.4325>",
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetPerimeter": {
+        "weight": 3,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    },
+    "RightTriangleTest": {
+      "testGetArea": {
+        "weight": 3,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testRightTriangle": {
+        "weight": 2,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetPerimenter": {
+        "weight": 2,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    }
+  }
+}
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Ungraded...
+[2021-04-19 00:07:58 UTC-04:00] > manager:	{
+  "java": {
+    "included": true
+  }
+}
+[2021-04-19 00:07:58 UTC-04:00] > logger:	Beginning formatted test printing
+[2021-04-19 00:07:58 UTC-04:00] > logger:	[94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+Results for [92mjava[0m
+
+[2021-04-19 00:07:58 UTC-04:00] > logger:	
+	Test file: [92mEquilateralTriangleTest[0m
+[2021-04-19 00:07:58 UTC-04:00] > logger:		[[94mPASS[0m] > +2/2 pts   [92mtestEquilateralTriangle[0m
+[2021-04-19 00:07:58 UTC-04:00] > logger:		[[91mFAIL[0m] > +0/3 pts   [92mtestGetArea[0m => expected: <0.433> but was: <0.4325>
+[2021-04-19 00:07:58 UTC-04:00] > logger:		[[94mPASS[0m] > +3/3 pts   [92mtestGetPerimeter[0m
+[2021-04-19 00:07:58 UTC-04:00] > logger:	
+	Test file: [92mRightTriangleTest[0m
+[2021-04-19 00:07:58 UTC-04:00] > logger:		[[94mPASS[0m] > +3/3 pts   [92mtestGetArea[0m
+[2021-04-19 00:07:58 UTC-04:00] > logger:		[[94mPASS[0m] > +2/2 pts   [92mtestRightTriangle[0m
+[2021-04-19 00:07:58 UTC-04:00] > logger:		[[94mPASS[0m] > +2/2 pts   [92mtestGetPerimenter[0m
+[2021-04-19 00:07:58 UTC-04:00] > logger:	[94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+Results for [92mjava[0m
+
+[2021-04-19 00:07:58 UTC-04:00] > logger:	[94m
+
+=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=[0m
+Final score: [92m80% (12.0/15.0 pts)[0m
+
+
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Received 12.0 / 15.0, grade: 80
+[2021-04-19 00:07:58 UTC-04:00] > manager:	Exiting, no need to send LTI connection as not secure test

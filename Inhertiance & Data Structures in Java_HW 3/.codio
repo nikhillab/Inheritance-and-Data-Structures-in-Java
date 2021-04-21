@@ -1,0 +1,16 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        	"Run Your Program": "clear; cd /home/codio/workspace/submit/; javac -d . -sourcepath . -cp .:../libs/junit-platform-console-standalone-1.3.2.jar ./*.java; java -classpath .:../libs/junit-platform-console-standalone-1.3.2.jar Main",
+      "Run Student JUnit Tests": "clear; cd /home/codio/workspace/submit; javac -d . -sourcepath . -cp .:/home/codio/workspace/libs/junit-platform-console-standalone-1.3.2.jar *.java; java -jar /home/codio/workspace/libs/junit-platform-console-standalone-1.3.2.jar --classpath=\"/home/codio/workspace/libs/*.jar:.\" --scan-class-path",
+        "Run Pre-Submission Tests": "clear; python3 /home/codio/workspace/.guides/test/control/execute.py"
+  },
+
+// Preview button configuration
+  "preview": {
+        "Open VSCode": "https://{{domain4000}}/"
+  },
+  "autogradeTestScripts": [".guides/secure/control/execute.py"]
+}

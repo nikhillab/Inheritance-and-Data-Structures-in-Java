@@ -1,0 +1,81 @@
+{
+  "assignment_overview": {
+    "assignment_types": [
+      "java"
+    ],
+    "required_files": [],
+    "ignore_files": [],
+    "required_functions": {},
+    "extra_credit_functions": {},
+    "extra_credit": {
+      "java": {},
+      "jupyter": {},
+      "python": {},
+      "c": {}
+    },
+    "scoring": {
+      "java": {},
+      "jupyter": {},
+      "python": {},
+      "c": {}
+    }
+  },
+  "scoring": {
+    "c": {},
+    "java": {
+      "VehicleFullTest": {
+        "testVehicle": 1,
+        "testGetAge": 1,
+        "testGetGasRemained": 1,
+        "testGetTotalGasConsumed": 1,
+        "testRefuel": 1,
+        "testRun": 1,
+        "testEquals": 1,
+        "testToString": 1
+      },
+      "VehicleTest": {
+        "testVehicle": 1,
+        "testGetAge": 1,
+        "testGetGasRemained": 1,
+        "testGetTotalGasConsumed": 1,
+        "testRefuel": 1,
+        "testRun": 1,
+        "testEquals": 1,
+        "testToString": 1
+      },
+      "unit_testing": 12
+    },
+    "jupyter": {},
+    "python": {}
+  },
+  "extra_credit": {
+    "c": {},
+    "java": {
+      "VehicleFullTest": {},
+      "VehicleTest": {}
+    },
+    "jupyter": {},
+    "python": {}
+  },
+  "unit_testing": {
+    "c": {},
+    "java": {
+      "src/transportation/VehicleTest.java": {
+        "min_asserts": {
+          "testRefuel": 6,
+          "testRun": 6,
+          "testEquals": 5,
+          "testToString": 5
+        },
+        "provided_asserts": {
+          "testRefuel": 3,
+          "testRun": 3,
+          "testEquals": 2,
+          "testToString": 2
+        }
+      }
+    },
+    "python": {},
+    "jupyter": {}
+  }
+}

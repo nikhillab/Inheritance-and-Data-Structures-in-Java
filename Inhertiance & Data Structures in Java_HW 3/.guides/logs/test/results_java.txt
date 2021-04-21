@@ -1,0 +1,36 @@
+╷
+├─ JUnit Jupiter ✔
+│  ├─ InfoProcessorFullTest ✔
+│  │  ├─ testGetNextStringStartsWith() ✔
+│  │  ├─ testGetStudentID() ✔
+│  │  ├─ testGetCourseName() ✔
+│  │  └─ testGetCourseID() ✔
+│  ├─ InfoProcessorTest ✔
+│  │  ├─ testGetNextStringStartsWith() ✔
+│  │  ├─ testGetStudentID() ✔
+│  │  ├─ testGetCourseName() ✔
+│  │  └─ testGetCourseID() ✔
+│  ├─ MyFileReaderFullTest ✔
+│  │  └─ testGetCleanContent() ✔
+│  ├─ MyFileReaderTest ✔
+│  │  └─ testGetCleanContent() ✔
+│  ├─ MyFileWriterFullTest ✔
+│  │  └─ testWriteToFile() ✔
+│  └─ MyFileWriterTest ✔
+│     └─ testWriteToFile() ✔
+└─ JUnit Vintage ✔
+
+Test run finished after 129 ms
+[         8 containers found      ]
+[         0 containers skipped    ]
+[         8 containers started    ]
+[         0 containers aborted    ]
+[         8 containers successful ]
+[         0 containers failed     ]
+[        12 tests found           ]
+[         0 tests skipped         ]
+[        12 tests started         ]
+[         0 tests aborted         ]
+[        12 tests successful      ]
+[         0 tests failed          ]
+

@@ -1,0 +1,88 @@
+You don't need to refuel a bike.
+You don't need to refuel a bike.
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+You don't need to refuel a bike.
+Eco-friendly travel by bicycle!
+You don't need to refuel a bike.
+You don't need to refuel a bike.
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+Eco-friendly travel by bicycle!
+You don't need to refuel a bike.
+╷
+├─ JUnit Jupiter ✔
+│  ├─ VehicleFullTest ✔
+│  │  ├─ testGetGasRemained() ✔
+│  │  ├─ testRun() ✔
+│  │  ├─ testGetTotalGasConsumed() ✘ expected: <100> but was: <0>
+│  │  ├─ testToString() ✔
+│  │  ├─ testVehicle() ✔
+│  │  ├─ testEquals() ✔
+│  │  ├─ testGetAge() ✔
+│  │  └─ testRefuel() ✔
+│  └─ VehicleTest ✔
+│     ├─ testGetGasRemained() ✔
+│     ├─ testRun() ✔
+│     ├─ testGetTotalGasConsumed() ✘ expected: <0> but was: <100>
+│     ├─ testToString() ✔
+│     ├─ testVehicle() ✔
+│     ├─ testEquals() ✔
+│     ├─ testGetAge() ✔
+│     └─ testRefuel() ✔
+└─ JUnit Vintage ✔
+
+Failures (2):
+  JUnit Jupiter:VehicleFullTest:testGetTotalGasConsumed()
+    MethodSource [className = 'transportation.VehicleFullTest', methodName = 'testGetTotalGasConsumed', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <100> but was: <0>
+       org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:152)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:147)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:327)
+       transportation.VehicleFullTest.testGetTotalGasConsumed(VehicleFullTest.java:80)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       [...]
+  JUnit Jupiter:VehicleTest:testGetTotalGasConsumed()
+    MethodSource [className = 'transportation.VehicleTest', methodName = 'testGetTotalGasConsumed', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <0> but was: <100>
+       org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:152)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:147)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:327)
+       transportation.VehicleTest.testGetTotalGasConsumed(VehicleTest.java:80)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       [...]
+
+Test run finished after 225 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[        16 tests found           ]
+[         0 tests skipped         ]
+[        16 tests started         ]
+[         0 tests aborted         ]
+[        14 tests successful      ]
+[         2 tests failed          ]
+

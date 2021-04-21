@@ -1,0 +1,7 @@
+{
+	"assignment_repo": "https://github.com/PennEngineeringOnlineLearning/UPenn_MOOCs.git",
+    "assignment_path": "mooc4_inheritance_and_data_structures_in_java/mod1",
+	"is_mooc": true,
+    "compile_override": "javac -d bin -sourcepath src -cp .:junit-platform-console-standalone-1.3.2.jar:bin src/transportation/*.java",
+    "package_location": "src/transportation"
+}

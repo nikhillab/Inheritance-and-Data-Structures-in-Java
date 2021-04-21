@@ -1,0 +1,503 @@
+[2021-04-12 09:31:46 UTC-04:00] > manager:	
+
+
+Kicking off new manager instance and associated tests, grading
+[2021-04-12 09:31:46 UTC-04:00] > manager:	Successfully created manager instance
+[2021-04-12 09:31:46 UTC-04:00] > checker:	Checking for required files
+
+[2021-04-12 09:31:46 UTC-04:00] > checker:	Found these files in submit folder: ['bin/transportation/Bike.class', 'bin/transportation/Vehicle.class', 'bin/transportation/Car.class', 'bin/transportation/VehicleTest.class', 'src/transportation/Bike.java', 'src/transportation/Car.java', 'src/transportation/VehicleTest.java', 'src/transportation/Vehicle.java', '.gitignore']
+[2021-04-12 09:31:46 UTC-04:00] > checker:	No files missing
+[2021-04-12 09:31:46 UTC-04:00] > manager:	Creating tester
+[2021-04-12 09:31:46 UTC-04:00] > tester:	Current Root: /home/codio/workspace/.guides/secure	Is Secure: True
+[2021-04-12 09:31:46 UTC-04:00] > manager:	Successfully exited tester!
+[2021-04-12 09:31:46 UTC-04:00] > manager:	Creating grader
+[2021-04-12 09:31:46 UTC-04:00] > manager:	Successfully exited grader!
+[2021-04-12 09:31:46 UTC-04:00] > manager:	Beginning tests by invoking tester from manager
+[2021-04-12 09:31:46 UTC-04:00] > tester:	Testing java
+[2021-04-12 09:31:46 UTC-04:00] > tester:	Compile command is: javac -d bin -sourcepath src -cp .:junit-platform-console-standalone-1.3.2.jar:bin src/transportation/*.java
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Finished testing
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Beginning grading process using the grader invoked from manager
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Trying to retrieve text version of java output
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Found 89 lines in text-output
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: JUnit Jupiter ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: True	Class: False	Test: False
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: VehicleFullTest ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is class: VehicleFullTest
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testGetGasRemained() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testGetGasRemained()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testRun() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testRun()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testGetTotalGasConsumed() ✘ expected: <100> but was: <0>
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testGetTotalGasConsumed()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": false,
+  "message": "expected: <100> but was: <0>",
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testToString() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testToString()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testVehicle() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testVehicle()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testEquals() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testEquals()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testGetAge() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testGetAge()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testRefuel() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testRefuel()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: VehicleTest ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is class: VehicleTest
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testGetGasRemained() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testGetGasRemained()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testRun() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testRun()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testGetTotalGasConsumed() ✘ expected: <0> but was: <100>
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testGetTotalGasConsumed()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": false,
+  "message": "expected: <0> but was: <100>",
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testToString() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testToString()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testVehicle() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testVehicle()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testEquals() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testEquals()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testGetAge() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testGetAge()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: testRefuel() ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Determined this is test: testRefuel()
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-12 09:31:48 UTC-04:00] > grader:	Examining line: JUnit Vintage ✔
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Junit Garbage: True	Class: False	Test: False
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Finished grading. Results to follow
+[2021-04-12 09:31:48 UTC-04:00] > manager:	{
+  "java": {
+    "included": true,
+    "VehicleFullTest": {
+      "testVehicle": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetAge": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetGasRemained": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetTotalGasConsumed": {
+        "weight": 1,
+        "passed": false,
+        "message": "expected: <100> but was: <0>",
+        "extra_credit": false,
+        "performed": true
+      },
+      "testRefuel": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testRun": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testEquals": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testToString": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    },
+    "VehicleTest": {
+      "testVehicle": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetAge": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetGasRemained": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetTotalGasConsumed": {
+        "weight": 1,
+        "passed": false,
+        "message": "expected: <0> but was: <100>",
+        "extra_credit": false,
+        "performed": true
+      },
+      "testRefuel": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testRun": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testEquals": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testToString": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    },
+    "unit_testing": {
+      "VehicleTest.testRefuel": {
+        "weight": 3.0,
+        "passed": false,
+        "message": "Test method passes, but required 6 total asserts but found 3 (3 provided)",
+        "extra_credit": false,
+        "performed": true
+      },
+      "VehicleTest.testRun": {
+        "weight": 3.0,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "VehicleTest.testEquals": {
+        "weight": 3.0,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "VehicleTest.testToString": {
+        "weight": 3.0,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    }
+  }
+}
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Ungraded...
+[2021-04-12 09:31:48 UTC-04:00] > manager:	{
+  "java": {
+    "included": true
+  }
+}
+[2021-04-12 09:31:48 UTC-04:00] > logger:	Beginning formatted test printing
+[2021-04-12 09:31:48 UTC-04:00] > logger:	[94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+Results for [92mjava[0m
+
+[2021-04-12 09:31:48 UTC-04:00] > logger:	
+	Test file: [92mVehicleFullTest[0m
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testVehicle
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testGetAge
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testGetGasRemained
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[FAIL] > +0/1 pts   testGetTotalGasConsumed => expected: <100> but was: <0>
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testRefuel
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testRun
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testEquals
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testToString
+[2021-04-12 09:31:48 UTC-04:00] > logger:	
+	Test file: [92mVehicleTest[0m
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testVehicle
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testGetAge
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testGetGasRemained
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[FAIL] > +0/1 pts   testGetTotalGasConsumed => expected: <0> but was: <100>
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testRefuel
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testRun
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testEquals
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +1/1 pts   testToString
+[2021-04-12 09:31:48 UTC-04:00] > logger:	
+	Test file: [92munit_testing[0m
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[FAIL] > +0/3.0 pts   VehicleTest.testRefuel => Test method passes, but required 6 total asserts but found 3 (3 provided)
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +3.0/3.0 pts   VehicleTest.testRun
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +3.0/3.0 pts   VehicleTest.testEquals
+[2021-04-12 09:31:48 UTC-04:00] > logger:		[PASS] > +3.0/3.0 pts   VehicleTest.testToString
+[2021-04-12 09:31:48 UTC-04:00] > logger:	[94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+Results for [92mjava[0m
+
+[2021-04-12 09:31:48 UTC-04:00] > logger:	
+
+=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+Final score: 82% (23.0/28.0 pts)
+
+
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Received 23.0 / 28.0, grade: 82
+[2021-04-12 09:31:48 UTC-04:00] > manager:	Attempting to send grade back via LTI connection
+[2021-04-12 09:31:49 UTC-04:00] > manager:	Response code: True. Exiting manager.

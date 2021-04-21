@@ -1,0 +1,42 @@
+╷
+├─ JUnit Jupiter ✔
+│  ├─ RightTriangleTest ✔
+│  │  ├─ testRightTriangle() ✔
+│  │  ├─ testGetArea() ✔
+│  │  └─ testGetPerimenter() ✔
+│  └─ EquilateralTriangleTest ✔
+│     ├─ testGetArea() ✘ expected: <0.433> but was: <0.4325>
+│     ├─ testEquilateralTriangle() ✔
+│     └─ testGetPerimeter() ✔
+└─ JUnit Vintage ✔
+
+Failures (1):
+  JUnit Jupiter:EquilateralTriangleTest:testGetArea()
+    MethodSource [className = 'triangle.EquilateralTriangleTest', methodName = 'testGetArea', methodParameterTypes = '']
+    => org.opentest4j.AssertionFailedError: expected: <0.433> but was: <0.4325>
+       org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+       org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:88)
+       org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:83)
+       org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:479)
+       triangle.EquilateralTriangleTest.testGetArea(EquilateralTriangleTest.java:45)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+       java.base/java.lang.reflect.Method.invoke(Method.java:566)
+       [...]
+
+Test run finished after 117 ms
+[         4 containers found      ]
+[         0 containers skipped    ]
+[         4 containers started    ]
+[         0 containers aborted    ]
+[         4 containers successful ]
+[         0 containers failed     ]
+[         6 tests found           ]
+[         0 tests skipped         ]
+[         6 tests started         ]
+[         0 tests aborted         ]
+[         5 tests successful      ]
+[         1 tests failed          ]
+

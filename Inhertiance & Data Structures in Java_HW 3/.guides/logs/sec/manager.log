@@ -1,0 +1,475 @@
+[2021-04-21 10:52:31 UTC-04:00] > manager:	
+
+
+Kicking off new manager instance and associated tests, grading
+[2021-04-21 10:52:31 UTC-04:00] > manager:	Successfully created manager instance
+[2021-04-21 10:52:31 UTC-04:00] > checker:	Checking for required files
+
+[2021-04-21 10:52:31 UTC-04:00] > checker:	Found these files in submit folder: ['.gitignore', 'test4.txt', 'example_output.txt', 'Main.java', 'test5.txt', 'test2.txt', 'info.txt', 'test3.txt', 'InfoProcessor.class', 'InfoProcessorTest.class', 'Main.class', 'MyFileReader.java', 'MyFileReader.class', 'MyFileReaderTest.class', 'MyFileWriter.class', 'MyFileWriterTest.class', 'MyFileReaderTest.java', 'InfoProcessor.java', 'InfoProcessorTest.java', 'test1_fw.txt', 'test2_fw.txt', 'MyFileWriterTest.java', 'MyFileWriter.java', 'test3_fw.txt', 'test4_fw.txt']
+[2021-04-21 10:52:31 UTC-04:00] > checker:	Looking for file: InfoProcessor.java
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[92mInfoProcessor.java[0m	
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[94mFOUND![0m
+
+[2021-04-21 10:52:31 UTC-04:00] > checker:	Looking for file: InfoProcessorTest.java
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[92mInfoProcessorTest.java[0m	
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[94mFOUND![0m
+
+[2021-04-21 10:52:31 UTC-04:00] > checker:	Looking for file: Main.java
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[92mMain.java[0m	
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[94mFOUND![0m
+
+[2021-04-21 10:52:31 UTC-04:00] > checker:	Looking for file: MyFileReader.java
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[92mMyFileReader.java[0m	
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[94mFOUND![0m
+
+[2021-04-21 10:52:31 UTC-04:00] > checker:	Looking for file: MyFileReaderTest.java
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[92mMyFileReaderTest.java[0m	
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[94mFOUND![0m
+
+[2021-04-21 10:52:31 UTC-04:00] > checker:	Looking for file: MyFileWriter.java
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[92mMyFileWriter.java[0m	
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[94mFOUND![0m
+
+[2021-04-21 10:52:31 UTC-04:00] > checker:	Looking for file: MyFileWriterTest.java
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[92mMyFileWriterTest.java[0m	
+[2021-04-21 10:52:31 UTC-04:00] > checker:	[94mFOUND![0m
+
+[2021-04-21 10:52:31 UTC-04:00] > checker:	No files missing
+[2021-04-21 10:52:31 UTC-04:00] > manager:	Creating tester
+[2021-04-21 10:52:31 UTC-04:00] > tester:	Current Root: /home/codio/workspace/.guides/secure	Is Secure: True
+[2021-04-21 10:52:31 UTC-04:00] > manager:	Successfully exited tester!
+[2021-04-21 10:52:31 UTC-04:00] > manager:	Creating grader
+[2021-04-21 10:52:31 UTC-04:00] > manager:	Successfully exited grader!
+[2021-04-21 10:52:31 UTC-04:00] > manager:	Beginning tests by invoking tester from manager
+[2021-04-21 10:52:31 UTC-04:00] > tester:	Testing java
+[2021-04-21 10:52:31 UTC-04:00] > tester:	Compile command is: javac -cp /home/codio/workspace/.guides/secure/execution-environment/java:junit-platform-console-standalone-1.3.2.jar /home/codio/workspace/.guides/secure/execution-environment/java/*.java
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Finished testing
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Beginning grading process using the grader invoked from manager
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Trying to retrieve text version of java output
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Found 37 lines in text-output
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: JUnit Jupiter ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: True	Class: False	Test: False
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: InfoProcessorTest ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is class: InfoProcessorTest
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: testGetNextStringStartsWith() ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is test: testGetNextStringStartsWith()
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1.5,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1.5,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: testGetStudentID() ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is test: testGetStudentID()
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: testGetCourseName() ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is test: testGetCourseName()
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: testGetCourseID() ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is test: testGetCourseID()
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: MyFileReaderFullTest ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is class: MyFileReaderFullTest
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: testGetCleanContent() ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is test: testGetCleanContent()
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2.5,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2.5,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: MyFileWriterTest ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is class: MyFileWriterTest
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: testWriteToFile() ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is test: testWriteToFile()
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2.5,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2.5,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: InfoProcessorFullTest ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is class: InfoProcessorFullTest
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: testGetNextStringStartsWith() ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is test: testGetNextStringStartsWith()
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1.5,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1.5,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: testGetStudentID() ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is test: testGetStudentID()
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: testGetCourseName() ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is test: testGetCourseName()
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: testGetCourseID() ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is test: testGetCourseID()
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 1,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC post-update: {
+  "weight": 1,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: MyFileReaderTest ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is class: MyFileReaderTest
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: testGetCleanContent() ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is test: testGetCleanContent()
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2.5,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2.5,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: MyFileWriterFullTest ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: True	Test: False
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is class: MyFileWriterFullTest
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: testWriteToFile() ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: False	Class: False	Test: True
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Determined this is test: testWriteToFile()
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC pre-update: {
+  "weight": 2.5,
+  "passed": false,
+  "message": null,
+  "extra_credit": false,
+  "performed": false
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	TC post-update: {
+  "weight": 2.5,
+  "passed": true,
+  "message": null,
+  "extra_credit": false,
+  "performed": true
+}
+[2021-04-21 10:52:32 UTC-04:00] > grader:	Examining line: JUnit Vintage ✔
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Junit Garbage: True	Class: False	Test: False
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Finished grading. Results to follow
+[2021-04-21 10:52:32 UTC-04:00] > manager:	{
+  "java": {
+    "included": true,
+    "MyFileReaderFullTest": {
+      "testGetCleanContent": {
+        "weight": 2.5,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    },
+    "InfoProcessorFullTest": {
+      "testGetCourseID": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetCourseName": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetStudentID": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetNextStringStartsWith": {
+        "weight": 1.5,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    },
+    "MyFileWriterFullTest": {
+      "testWriteToFile": {
+        "weight": 2.5,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    },
+    "InfoProcessorTest": {
+      "testGetCourseID": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetCourseName": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetStudentID": {
+        "weight": 1,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "testGetNextStringStartsWith": {
+        "weight": 1.5,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    },
+    "MyFileReaderTest": {
+      "testGetCleanContent": {
+        "weight": 2.5,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    },
+    "MyFileWriterTest": {
+      "testWriteToFile": {
+        "weight": 2.5,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    },
+    "unit_testing": {
+      "InfoProcessorTest.testGetCourseName": {
+        "weight": 2.0,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "InfoProcessorTest.testGetCourseID": {
+        "weight": 2.0,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "InfoProcessorTest.testGetStudentID": {
+        "weight": 2.0,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "InfoProcessorTest.testGetNextStringStartsWith": {
+        "weight": 2.0,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "MyFileReaderTest.testGetCleanContent": {
+        "weight": 2.0,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      },
+      "MyFileWriterTest.testWriteToFile": {
+        "weight": 2.0,
+        "passed": true,
+        "message": null,
+        "extra_credit": false,
+        "performed": true
+      }
+    }
+  }
+}
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Ungraded...
+[2021-04-21 10:52:32 UTC-04:00] > manager:	{
+  "java": {
+    "included": true
+  }
+}
+[2021-04-21 10:52:32 UTC-04:00] > logger:	Beginning formatted test printing
+[2021-04-21 10:52:32 UTC-04:00] > logger:	[94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+Results for [92mjava[0m
+
+[2021-04-21 10:52:32 UTC-04:00] > logger:	
+	Test file: [92mMyFileReaderFullTest[0m
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +2.5/2.5 pts   testGetCleanContent
+[2021-04-21 10:52:32 UTC-04:00] > logger:	
+	Test file: [92mInfoProcessorFullTest[0m
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +1/1 pts   testGetCourseID
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +1/1 pts   testGetCourseName
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +1/1 pts   testGetStudentID
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +1.5/1.5 pts   testGetNextStringStartsWith
+[2021-04-21 10:52:32 UTC-04:00] > logger:	
+	Test file: [92mMyFileWriterFullTest[0m
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +2.5/2.5 pts   testWriteToFile
+[2021-04-21 10:52:32 UTC-04:00] > logger:	
+	Test file: [92mInfoProcessorTest[0m
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +1/1 pts   testGetCourseID
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +1/1 pts   testGetCourseName
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +1/1 pts   testGetStudentID
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +1.5/1.5 pts   testGetNextStringStartsWith
+[2021-04-21 10:52:32 UTC-04:00] > logger:	
+	Test file: [92mMyFileReaderTest[0m
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +2.5/2.5 pts   testGetCleanContent
+[2021-04-21 10:52:32 UTC-04:00] > logger:	
+	Test file: [92mMyFileWriterTest[0m
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +2.5/2.5 pts   testWriteToFile
+[2021-04-21 10:52:32 UTC-04:00] > logger:	
+	Test file: [92munit_testing[0m
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +2.0/2.0 pts   InfoProcessorTest.testGetCourseName
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +2.0/2.0 pts   InfoProcessorTest.testGetCourseID
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +2.0/2.0 pts   InfoProcessorTest.testGetStudentID
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +2.0/2.0 pts   InfoProcessorTest.testGetNextStringStartsWith
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +2.0/2.0 pts   MyFileReaderTest.testGetCleanContent
+[2021-04-21 10:52:32 UTC-04:00] > logger:		[PASS] > +2.0/2.0 pts   MyFileWriterTest.testWriteToFile
+[2021-04-21 10:52:32 UTC-04:00] > logger:	[94m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+Results for [92mjava[0m
+
+[2021-04-21 10:52:32 UTC-04:00] > logger:	
+
+=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=*=
+Final score: 100% (31.0/31.0 pts)
+
+
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Received 31.0 / 31.0, grade: 100
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Attempting to send grade back via LTI connection
+[2021-04-21 10:52:32 UTC-04:00] > manager:	Response code: True. Exiting manager.

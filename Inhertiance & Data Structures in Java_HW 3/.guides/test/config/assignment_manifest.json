@@ -1,0 +1,105 @@
+{
+  "assignment_overview": {
+    "assignment_types": [
+      "java"
+    ],
+    "required_files": ["InfoProcessor.java", "InfoProcessorTest.java", "Main.java", "MyFileReader.java", "MyFileReaderTest.java", "MyFileWriter.java", "MyFileWriterTest.java"],
+    "ignore_files": [],
+    "required_functions": {},
+    "extra_credit_functions": {},
+    "extra_credit": {
+      "java": {},
+      "jupyter": {},
+      "python": {},
+      "c": {}
+    },
+    "scoring": {
+      "java": {},
+      "jupyter": {},
+      "python": {},
+      "c": {}
+    }
+  },
+  "scoring": {
+    "c": {},
+    "java": {
+      "MyFileReaderFullTest": {
+        "testGetCleanContent": 2.5
+      },
+      "InfoProcessorFullTest": {
+        "testGetCourseID": 1,
+        "testGetCourseName": 1,
+        "testGetStudentID": 1,
+        "testGetNextStringStartsWith": 1.5
+      },
+      "MyFileWriterFullTest": {
+        "testWriteToFile": 2.5
+      },
+      "InfoProcessorTest": {
+        "testGetCourseID": 1,
+        "testGetCourseName": 1,
+        "testGetStudentID": 1,
+        "testGetNextStringStartsWith": 1.5
+      },
+      "MyFileReaderTest": {
+        "testGetCleanContent": 2.5
+      },
+      "MyFileWriterTest": {
+        "testWriteToFile": 2.5
+      },
+      "unit_testing": 12
+    },
+    "jupyter": {},
+    "python": {}
+  },
+  "extra_credit": {
+    "c": {},
+    "java": {
+      "MyFileReaderFullTest": {},
+      "InfoProcessorFullTest": {},
+      "MyFileWriterFullTest": {},
+      "InfoProcessorTest": {},
+      "MyFileReaderTest": {},
+      "MyFileWriterTest": {}
+    },
+    "jupyter": {},
+    "python": {}
+  },
+  "unit_testing": {
+    "c": {},
+    "java": {
+      "InfoProcessorTest.java": {
+        "min_asserts": {
+          "testGetCourseID": 3,
+          "testGetCourseName": 3,
+          "testGetStudentID": 3,
+          "testGetNextStringStartsWith": 5
+        },
+        "provided_asserts": {
+          "testGetCourseID": 1,
+          "testGetCourseName": 1,
+          "testGetStudentID": 1,
+          "testGetNextStringStartsWith": 3
+        }
+      },
+      "MyFileReaderTest.java": {
+        "min_asserts": {
+          "testGetCleanContent": 5
+        },
+        "provided_asserts": {
+          "testGetCleanContent": 3
+        }
+      },
+      "MyFileWriterTest.java": {
+        "min_asserts": {
+          "testWriteToFile": 4
+        },
+        "provided_asserts": {
+          "testWriteToFile": 2
+        }
+      }
+    },
+    "python": {},
+    "jupyter": {}
+  }
+}
